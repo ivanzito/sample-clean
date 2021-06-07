@@ -1,7 +1,6 @@
 package br.com.ivan.usecase;
 
 import br.com.ivan.*;
-import br.com.ivan.clean.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

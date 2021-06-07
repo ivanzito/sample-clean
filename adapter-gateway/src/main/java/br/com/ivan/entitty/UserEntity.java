@@ -12,6 +12,10 @@ import javax.persistence.Id;
 @AllArgsConstructor
 public class UserEntity {
 
+    public UserEntity() {
+
+    }
+
     @Id
     private Long id;
 

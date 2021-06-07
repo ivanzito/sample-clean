@@ -9,13 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>adapter-database</artifactId>
+    <artifactId>adapter-gateway</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>br.com.ivan</groupId>
-            <artifactId>boundary-gateway</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.h2database</groupId>
@@ -28,9 +23,9 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>13.0</version>
+            <groupId>br.com.ivan</groupId>
+            <artifactId>boundary-gateway</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
